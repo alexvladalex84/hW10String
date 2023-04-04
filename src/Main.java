@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         task1();
-//        task2();
-//        task3();
+        task2();
+        task3();
 
     }
 
@@ -13,6 +13,7 @@ public class Main {
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
+
 
         System.out.println("Ф.И.О. сотрудника - " + fullName);
 
@@ -32,7 +33,8 @@ public class Main {
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
-        System.out.println("Ф.И.О. сотрудника -" + fullName.toUpperCase());
+        String upperFullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета  ̶ " + upperFullName);
 
 
     }
